@@ -15,7 +15,7 @@ namespace MVC.Controllers
 {
     public class JobController : Controller
     {
-        public const string baseUrl = "http://localhost:5000/";
+        public const string baseUrl = "http://localhost:49694/";
         private Uri clientBaseAddress = new Uri(baseUrl);
         private HttpClient client;
 
@@ -39,7 +39,7 @@ namespace MVC.Controllers
             List<Job> jobs = new List<Job>();
             HeaderClearing();
 
-            HttpResponseMessage httpResponseMessage = await client.GetAsync("api/Jobs");
+            HttpResponseMessage httpResponseMessage = await client.GetAsync("api/Job");
 
             if (httpResponseMessage.IsSuccessStatusCode)
             {
@@ -55,7 +55,7 @@ namespace MVC.Controllers
             Job job = new Job();
             HeaderClearing();
 
-            HttpResponseMessage httpResponseMessage = await client.GetAsync($"api/Jobs/{id}");
+            HttpResponseMessage httpResponseMessage = await client.GetAsync($"api/Job/{id}");
 
             if (httpResponseMessage.IsSuccessStatusCode)
             {
@@ -81,7 +81,7 @@ namespace MVC.Controllers
             var viewModel = new JobCategory
             {
                 Job = new Job(),
-                Categories = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(categories, "ID", "Name")
+                Categories = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(categories, "Id", "Name")
             };
             return View(viewModel);
         }
@@ -96,7 +96,7 @@ namespace MVC.Controllers
             {
                 string createJobInfo = JsonConvert.SerializeObject(job);
                 StringContent stringContentInfo = new StringContent(createJobInfo, Encoding.UTF8, "application/json");
-                HttpResponseMessage createHttpResponseMessage = client.PostAsync(client.BaseAddress + "api/Jobs", stringContentInfo).Result;
+                HttpResponseMessage createHttpResponseMessage = client.PostAsync(client.BaseAddress + "api/Job", stringContentInfo).Result;
                 if (createHttpResponseMessage.IsSuccessStatusCode)
                 {
                     return RedirectToAction(nameof(Index));
@@ -111,7 +111,7 @@ namespace MVC.Controllers
             Job job = new Job();
             HeaderClearing();
 
-            HttpResponseMessage httpResponseMessage = await client.GetAsync($"api/Jobs/{id}");
+            HttpResponseMessage httpResponseMessage = await client.GetAsync($"api/Job/{id}");
 
             if (httpResponseMessage.IsSuccessStatusCode)
             {
@@ -130,7 +130,7 @@ namespace MVC.Controllers
             var viewModel = new JobCategory
             {
                 Job = job,
-                Categories = new SelectList(categories, "ID", "Name", job.JobCategoryId)
+                Categories = new SelectList(categories, "Id", "Name", job.JobCategoryId)
             };
             return View(viewModel);
         }
@@ -145,7 +145,7 @@ namespace MVC.Controllers
             {
                 string createJobInfo = JsonConvert.SerializeObject(jobCategoryModel.Job);
                 StringContent stringContentInfo = new StringContent(createJobInfo, Encoding.UTF8, "application/json");
-                HttpResponseMessage editHttpResponseMessage = client.PutAsync(client.BaseAddress + $"api/Jobs/{id}", stringContentInfo).Result;
+                HttpResponseMessage editHttpResponseMessage = client.PutAsync(client.BaseAddress + $"api/Job/{id}", stringContentInfo).Result;
                 if (editHttpResponseMessage.IsSuccessStatusCode)
                 {
                     return RedirectToAction(nameof(Index));
@@ -158,7 +158,7 @@ namespace MVC.Controllers
         public ActionResult Delete(int id)
         {
             Job jobInfo = new Job();
-            HttpResponseMessage getJobHttpResponseMessage = client.GetAsync(client.BaseAddress + $"api/Jobs/{id}").Result;
+            HttpResponseMessage getJobHttpResponseMessage = client.GetAsync(client.BaseAddress + $"api/Job/{id}").Result;
             if (getJobHttpResponseMessage.IsSuccessStatusCode)
             {
                 jobInfo = getJobHttpResponseMessage.Content.ReadAsAsync<Job>().Result;
@@ -171,7 +171,7 @@ namespace MVC.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, Job job)
         {
-            HttpResponseMessage deleteJobHttpResponseMessage = client.DeleteAsync(client.BaseAddress + $"api/Jobs/{id}").Result;
+            HttpResponseMessage deleteJobHttpResponseMessage = client.DeleteAsync(client.BaseAddress + $"api/Job/{id}").Result;
             if (deleteJobHttpResponseMessage.IsSuccessStatusCode)
             {
                 //jobInfo = getJobHttpResponseMessage.Content.ReadAsAsync<Job>().Result;
