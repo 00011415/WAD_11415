@@ -157,3 +157,8 @@ E:\Users\00011415\Desktop\WAD_11415\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\
 E:\Users\00011415\Desktop\WAD_11415\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Job\Delete.cshtml.g.cs
 E:\Users\00011415\Desktop\WAD_11415\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Job\Details.cshtml.g.cs
 E:\Users\00011415\Desktop\WAD_11415\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Job\Edit.cshtml.g.cs
+E:\Users\00011415\Desktop\WAD_11415\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Category\Index.cshtml.g.cs
+E:\Users\00011415\Desktop\WAD_11415\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Category\Details.cshtml.g.cs
+E:\Users\00011415\Desktop\WAD_11415\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Category\Delete.cshtml.g.cs
+E:\Users\00011415\Desktop\WAD_11415\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Category\Edit.cshtml.g.cs
+E:\Users\00011415\Desktop\WAD_11415\MVC\MVC\obj\Debug\netcoreapp3.1\Razor\Views\Category\Create.cshtml.g.cs
