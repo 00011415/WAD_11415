@@ -123,3 +123,5 @@ E:\Users\00011415\Documents\GitHub\WAD_11415\API\API\obj\Debug\netcoreapp3.1\API
 E:\Users\00011415\Documents\GitHub\WAD_11415\API\API\obj\Debug\netcoreapp3.1\API.dll
 E:\Users\00011415\Documents\GitHub\WAD_11415\API\API\obj\Debug\netcoreapp3.1\API.pdb
 E:\Users\00011415\Documents\GitHub\WAD_11415\API\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+E:\Users\00011415\Documents\GitHub\WAD_11415\API\API\bin\Debug\netcoreapp3.1\DAL.dll
+E:\Users\00011415\Documents\GitHub\WAD_11415\API\API\bin\Debug\netcoreapp3.1\DAL.pdb

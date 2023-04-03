@@ -1,0 +1,10 @@
+E:\Users\00011415\Documents\GitHub\WAD_11415\API\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+E:\Users\00011415\Documents\GitHub\WAD_11415\API\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+E:\Users\00011415\Documents\GitHub\WAD_11415\API\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+E:\Users\00011415\Documents\GitHub\WAD_11415\API\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+E:\Users\00011415\Documents\GitHub\WAD_11415\API\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Users\00011415\Documents\GitHub\WAD_11415\API\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+E:\Users\00011415\Documents\GitHub\WAD_11415\API\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+E:\Users\00011415\Documents\GitHub\WAD_11415\API\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+E:\Users\00011415\Documents\GitHub\WAD_11415\API\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+E:\Users\00011415\Documents\GitHub\WAD_11415\API\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
