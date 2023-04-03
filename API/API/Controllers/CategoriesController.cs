@@ -6,6 +6,7 @@ using System.Transactions;
 
 namespace API.Controllers
 {
+    // Category controlller with CRUD logic
     [Route("api/[controller]")]
     [ApiController]
     public class CategoriesController : ControllerBase

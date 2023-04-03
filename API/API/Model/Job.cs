@@ -1,5 +1,6 @@
 ﻿namespace API.Model
 {
+    // Job model
     public class Job
     {
         public int Id { get; set; }

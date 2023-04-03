@@ -6,6 +6,7 @@ using System.Transactions;
 
 namespace API.Controllers
 {
+    // Job controller with CRUD logic
     [Route("api/[controller]")]
     [ApiController]
     public class JobController : ControllerBase

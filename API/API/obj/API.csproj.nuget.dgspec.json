@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Users\\00011415\\Desktop\\WAD_11415\\API\\API\\API.csproj": {}
+    "E:\\Users\\00011415\\Documents\\GitHub\\WAD_11415\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "E:\\Users\\00011415\\Desktop\\WAD_11415\\API\\API\\API.csproj": {
+    "E:\\Users\\00011415\\Documents\\GitHub\\WAD_11415\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\00011415\\Desktop\\WAD_11415\\API\\API\\API.csproj",
+        "projectUniqueName": "E:\\Users\\00011415\\Documents\\GitHub\\WAD_11415\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "E:\\Users\\00011415\\Desktop\\WAD_11415\\API\\API\\API.csproj",
+        "projectPath": "E:\\Users\\00011415\\Documents\\GitHub\\WAD_11415\\API\\API\\API.csproj",
         "packagesPath": "E:\\Users\\00011415\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\00011415\\Desktop\\WAD_11415\\API\\API\\obj\\",
+        "outputPath": "E:\\Users\\00011415\\Documents\\GitHub\\WAD_11415\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "E:\\Users\\00011415\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -51,8 +54,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
         }
       }
     }

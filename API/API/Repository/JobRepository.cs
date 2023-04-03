@@ -5,6 +5,7 @@ using System.Linq;
 
 namespace API.Repository
 {
+    // Job repository with all CRUD logic
     public class JobRepository : IJobRepository
     {
         private JobDbContext _dbContext;
@@ -42,6 +43,7 @@ namespace API.Repository
 
         public void UpdateJob(Job job)
         {
+            job.Category = _dbContext.Categories.Find(job.Category.Id);
             _dbContext.Entry(job).State = EntityState.Modified;
             Save();
         }

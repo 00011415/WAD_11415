@@ -5,6 +5,7 @@ using System.Linq;
 
 namespace API.Repository
 {
+    // Category repository with all CRUD logic
     public class CategoryRepository : ICategoryRepository
     {
         private JobDbContext _dbContext;
